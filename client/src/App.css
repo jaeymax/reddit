@@ -1,0 +1,51 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500&family=Roboto:ital,wght@0,300;0,400;1,100;1,300&display=swap'); */
+
+*{
+  margin:0;
+  font-family: 'Readex Pro',sans-serif;
+  /* box-sizing: border-box; */
+  /* background-color: #dadbd3; */
+}
+
+/* :root{
+  --color-main:#292a2c;
+  --text-color:#d6d1d1;
+} */
+
+
+.dark{
+  --color-main:#292a2c;
+  /* --color-main:#233138; */
+  --text-color:#fff;
+  --sidebar-color:#191a1b;
+  /* --sidebar-color:#111b21; */
+  --sidebar-hover-color:var(--color-main);
+  --icon-color:rgb(211, 211, 211);
+  /* --border-color:rgb(41, 41, 41); */
+  --border-color:rgba(61,61,61, 0.5)
+
+}
+
+.light{
+  /* --color-main:#ededed; */
+  --color-main:#f0f2f5;
+  --text-color:#000000;
+  /* --sidebar-color:#fff; */
+  --sidebar-color:#fff;
+
+  --sidebar-hover-color:#ebebeb5d;
+  --icon-color:#556068;
+  --border-color:#f6f6f6;
+}
+
+.MuiSvgIcon-root{
+  color: var(--icon-color);
+}
+
+.app{
+  display: grid;
+  place-items: center;
+  height:100vh;
+  background-color: #dadbd3;
+}
+
